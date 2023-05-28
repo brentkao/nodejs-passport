@@ -1,0 +1,20 @@
+{
+  "name": "google",
+  "version": "1.0.0",
+  "description": "- NPM    - express    - express-session    - passport    - passport-google-oauth2    - dotenv    - nodemon",
+  "main": "auth-google.js",
+  "scripts": {
+    "google": "node index-google.js",
+    "dev": "nodemon index-google.js"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.22",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0"
+  }
+}

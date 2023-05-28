@@ -1,0 +1,15 @@
+# 忽略所有node_modules
+node_modules
+
+# 忽略所有.env檔案
+*.env
+
+# 忽略所有.p8檔案
+*.p8
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

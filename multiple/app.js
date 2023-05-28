@@ -12,7 +12,6 @@ require('./passport'); //#passport
 const port = process.env.PORT || 3000;
 
 
-
 //➫ 啟動APP
 const app = express();
 app.listen(port, () => console.log(`listening in http://localhost:${port}`));

@@ -6,8 +6,7 @@ require('dotenv').config();
 passport.use(new LineStrategy({
     channelID: process.env.LINE_CHANNEL_ID,
     channelSecret: process.env.LINE_CHANNEL_SECRET,
-    callbackURL: process.env.LINE_CALLBACK_URL
-
+    callbackURL: process.env.LINE_CALLBACK_URL,
 },
     async function (accessToken, refreshToken, profile, done) {
         console.log(profile);

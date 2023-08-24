@@ -24,6 +24,10 @@ app.get('/', (req, res) => {
 
 app.get('/auth/line', passport.authenticate('line'));
 
+app.use((req,res,next)=>{
+    console.log(req.url);
+    next()
+})
 app.get('/auth/line/callback', function (req, res, next) {
     passport.authenticate('line', function (err, user, info) {
         if (err) {
